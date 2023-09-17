@@ -82,3 +82,12 @@
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
+
+.estado-search{
+
+}
+.btn-action{
+    width: 90px;
+    height: 32px;
+    border-radius: 18px;
+}
