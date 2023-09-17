@@ -103,3 +103,45 @@
 .error-message {
     color: red;
 }
+/* centrar texto HU15 */
+.centrar-text{
+    text-align: center;
+}
+.centrar-hr{
+    width: 50%;
+    margin-left: 25%;
+}
+/* ubicar estado en HU15 */
+.col-form2{
+    width: 340px;
+    display:flex ;
+}
+
+/* color boton en HU15 */
+.btn-sec-orange{
+    background-color: rgb(242, 126, 26);
+    border-color: rgb(242, 126, 26);
+}
+/* Mover buscador HU15 */
+.shearh-derecha{
+    justify-content: space-between;
+}
+/* Espacio de iconos de tabla HU15 */
+.icon-table{
+    margin: 5px;
+}
+/* Boton invisible HU15 */
+.boton-invisible{
+    visibility: hidden;
+}
+/* Botones de tabla HU15 */
+.btn-table{
+    width: 94px;
+    height: 32px;
+    margin: 2px;
+}
+/* prop de filas de tabla HU15 */
+.acciones{
+    display: flex; 
+    flex-direction: row;
+}
