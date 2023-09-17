@@ -82,3 +82,24 @@
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
+
+/* css HU3 u HU6 y HU6-1*/
+.col-form{
+    width: 340px;
+}
+
+/* CSS toggle password visibility eye and Validate Jquery Password and confirm password */
+.password-icon {
+    float: right;
+    position: relative;
+    margin: -25px 10px 0 0;
+    cursor: pointer;
+}
+
+.success-message {
+    color: green
+}
+
+.error-message {
+    color: red;
+}
