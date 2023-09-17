@@ -11,6 +11,7 @@
     <!--icono eye -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
         integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css">
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Font awesome -->
@@ -113,7 +114,7 @@
                         <td><button type="button" class="btn btn-primary btn-sm">Ver detalle</button></td>
                         <td>
                             <div class="acciones">
-                                <button type="button" class="btn btn-secondary btn-lg btn-sm" disabled>A cocina</button>
+                                <button type="button" class="btn btn-secondary btn-lg btn-sm btn-sec-orange" disabled>A cocina</button>
                                 <button type="button" class="btn btn-success btn-sm">Pagar</button>
                                 <button type="button" class="btn btn-secondary btn-lg btn-sm" disabled>Ver factura</button>
                                 <button type="button" class="btn btn-danger btn-sm">Anular</button>
@@ -127,21 +128,13 @@
                         <td>Mercado Pago</td>
                         <td>Si</td>
                         <td>A confirmar</td>
-                        <td><button type="button" class="btn btn-primary btn-sm btn-primary2">Ver detalle</button></td>
+                        <td><button type="button" class="btn btn-primary btn-sm">Ver detalle</button></td>
                         <td>
                            <div class="acciones" style="display: flex; flex-direction: row;">
-                                <div>
                                     <button type="button" class="btn btn-primary btn-sm">A cocina</button>
-                                </div>
-                                <div>
-                                <button type="button" class="btn btn-success btn-sm" style="visibility: hidden;">Pagar</button>
-                                </div>   
-                                <div>
-                                <button type="button" class="btn btn-secondary btn-lg btn-sm" disabled>Ver factura</button>
-                                </div> 
-                                <div>
-                                    <button type="button" class="btn btn-danger btn-sm">Anular</button> 
-                                </div>
+                                    <button type="button" class="btn btn-success btn-sm" style="visibility: hidden;">Pagar</button>
+                                    <button type="button" class="btn btn-secondary btn-lg btn-sm" disabled>Ver factura</button>
+                                    <button type="button" class="btn btn-danger btn-sm">Anular</button>
                             </div>
                         </td>
                     </tr>
@@ -155,18 +148,10 @@
                         <td><button type="button" class="btn btn-primary btn-sm">Ver detalle</button></td>
                         <td>
                             <div class="acciones" style="display: flex; flex-direction: row;">
-                                <div>
-                                    <button type="button" class="btn btn-primary btn-sm">Listo</button>
-                                </div>
-                                <div>
+                                <button type="button" class="btn btn-primary btn-sm">Listo</button>
                                 <button type="button" class="btn btn-success btn-sm" style="visibility: hidden;">Pagar</button>
-                                </div>   
-                                <div>
                                 <button type="button" class="btn btn-primary btn-sm">Ver factura</button>
-                                </div> 
-                                <div>
-                                    <button type="button" class="btn btn-danger btn-sm">Anular</button> 
-                                </div>
+                                <button type="button" class="btn btn-danger btn-sm">Anular</button> 
                             </div>
                         </td>
                     </tr>
@@ -180,18 +165,10 @@
                         <td><button type="button" class="btn btn-primary btn-sm">Ver detalle</button></td>
                         <td>
                             <div class="acciones" style="display: flex; flex-direction: row;">
-                                <div>
-                                    <button type="button" class="btn btn-primary btn-sm">Delivery</button>
-                                </div>
-                                <div>
+                                <button type="button" class="btn btn-primary btn-sm">Delivery</button>
                                 <button type="button" class="btn btn-success btn-sm" style="visibility: hidden;">Pagar</button>
-                                </div>   
-                                <div>
                                 <button type="button" class="btn btn-primary btn-sm">Ver factura</button>
-                                </div> 
-                                <div>
-                                    <button type="button" class="btn btn-danger btn-sm">Anular</button> 
-                                </div>
+                                <button type="button" class="btn btn-danger btn-sm">Anular</button> 
                             </div>
                         </td>
                     </tr>
@@ -205,18 +182,10 @@
                         <td><button type="button" class="btn btn-primary btn-sm">Ver detalle</button></td>
                         <td>
                             <div class="acciones" style="display: flex; flex-direction: row;">
-                                <div>
-                                    <button type="button" class="btn btn-primary btn-sm"style="visibility: hidden;">Listo</button>
-                                </div>
-                                <div>
-                                <button type="button" class="btn btn-success btn-sm" style="visibility: hidden;">Pagar</button>
-                                </div>   
-                                <div>
+                                <button type="button" class="btn btn-primary btn-sm"style="visibility: hidden;">Listo</button>
+                                <button type="button" class="btn btn-success btn-sm" style="visibility: hidden;">Pagar</button>   
                                 <button type="button" class="btn btn-primary btn-sm">Ver factura</button>
-                                </div> 
-                                <div>
-                                    <button type="button" class="btn btn-danger btn-sm">Anular</button> 
-                                </div>
+                                <button type="button" class="btn btn-danger btn-sm">Anular</button> 
                             </div>
                         </td>
                     </tr>
@@ -230,18 +199,10 @@
                         <td><button type="button" class="btn btn-primary btn-sm">Ver detalle</button></td>
                         <td>
                             <div class="acciones" style="display: flex; flex-direction: row;">
-                                <div>
-                                    <button type="button" class="btn btn-primary btn-sm" style="visibility: hidden;">Listo</button>
-                                </div>
-                                <div>
+                                <button type="button" class="btn btn-primary btn-sm" style="visibility: hidden;">Listo</button>
                                 <button type="button" class="btn btn-success btn-sm" style="visibility: hidden;">Pagar</button>
-                                </div>   
-                                <div>
                                 <button type="button" class="btn btn-primary btn-sm">Ver factura</button>
-                                </div> 
-                                <div>
-                                    <button type="button" class="btn btn-danger btn-sm">Anular</button> 
-                                </div>
+                                <button type="button" class="btn btn-danger btn-sm">Anular</button> 
                             </div>
                         </td>
                     </tr>

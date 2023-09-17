@@ -24,6 +24,10 @@
     background-color: rgba(165, 35, 38, 1);
     border-color:  rgba(165, 35, 38, 1);
 }
+.btn-sec-orange{
+    background-color: rgba(242, 126, 26, 1);
+    border-color: rgba(242, 126, 26, 1);
+}
 .btn-s2:hover {
     background-color: rgb(83, 18, 19);
     border-color: rgba(83, 18, 19);
