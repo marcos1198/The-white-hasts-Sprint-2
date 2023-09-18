@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>h5 Ingreso empleado</title>
+    <title>HU5-1</title>
     <link rel="bootstrap" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="bootstrap" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
     <link rel="bootstrap" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
@@ -65,12 +65,22 @@
                 <h5 class="card-title text-center">Ingresar</h5>
                 <form class="form-signin">
                   <div class="form-label-group">
-                    <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+                    <!-- <input type="email" id="inputEmail" class="form-control" placeholder="Nueva contraseña" required autofocus> -->
+                    <input type="password" name="password" placeholder="Nueva contraseña" class="form-control"
+                            id="inputClave">
+                    <spam class="fa fa-fw fa-eye password-icon show-password"></spam>
+                    <div class="success-message-sm">
+                      La contraseña debe tener mínimo 8 caracteres y por los menos una letra minúscula, una mayúscula y un símbolo.
+                    </div>
                     <!-- <label for="inputEmail">Email address</label> -->
                   </div>
     
                   <div class="form-label-group">
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Clave provisoria" required>
+                    <!-- <input type="password" id="inputPassword" class="form-control" placeholder="Repetir contraseña" required> -->
+                    <input type="password" name="password" placeholder="Escriba nuevamente la contraseña"
+                            class="form-control" id="confirmpassword">
+                        <spam class="fa fa-fw fa-eye password-icon show-password"></spam>
+                        <div class="form-text confirm-message"></div>
                   </div>
     
                   <div class="custom-control custom-checkbox mb-3">
@@ -80,7 +90,7 @@
                 </form>
             </div>
             <hr class="my-4">
-            <button class="btn btn-lg btn-primary btn-block text-uppercase btn-primary2" type="submit">Ingresar</button>
+            <button class="btn btn-lg btn-primary btn-block text-uppercase btn-primary2" type="submit">Registrar</button>
             </div>
           </div>
         </div>
