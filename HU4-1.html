@@ -11,6 +11,7 @@
     <!--icono eye -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
         integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -66,7 +67,6 @@
     </div>
 
     <section class="container">
-
         <form novalidate>
             <!-- Formulario de Registro -->
             <div class="p-3 m-0 border-0 bd-example">
@@ -74,19 +74,19 @@
                 <div class="mb-3 row ">
                     <label for="disabledInputNombre" class="col-sm-2 col-form-label">Nombre:</label>
                     <!-- Cambiar en style.css general el tamaño de los input agregar clase input-form-->
-                    <div class="col-sm-10" style="width: 340px;">
+                    <div class="col-sm-10 col-form">
                         <input type="text" placeholder="Pepe" class="form-control" id="disabledInputNombre" disabled>
                     </div>
                 </div>
                 <div class="mb-3 row">
                     <label for="inputApellido" class="col-sm-2 col-form-label">Apellido:</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-form">
                         <input type="text" placeholder="Argento" class="form-control" id="inputApellido" disabled>
                     </div>
                 </div>
                 <div class="mb-3 row">
                     <label for="validationInputEmail" class="col-sm-2 col-form-label">Email:</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-form">
                         <input type="email" placeholder="PepeArgento@gmail.com" class="form-control"
                             id="validationInputEmail" disabled>
                             <div class="success-message"><i class="fas fa-check"></i>
@@ -96,26 +96,26 @@
                 </div>
                 <div class="mb-3 row">
                     <label for="inputTelefono" class="col-sm-2 col-form-label">Telefono:</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-form">
                         <input type="tel" placeholder="2613334444" class="form-control" id="inputTelefono" disabled>
                     </div>
                 </div>
                 <div class="mb-3 row">
                     <label for="inputDepartamento" class="col-sm-2 col-form-label">Departamento:</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-form">
                         <input type="text" placeholder="Departamento" class="form-control" id="inputDepartamento"
                             disabled>
                     </div>
                 </div>
                 <div class="mb-3 row">
                     <label for="inputDireccion" class="col-sm-2 col-form-label">Direccion:</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-form">
                         <input type="text" placeholder="Direccion" class="form-control" id="inputDireccion" disabled>
                     </div>
                 </div>
                 <div class="mb-3 row">
                     <label for="inputContrasenia" class="col-sm-2 col-form-label">Contraseña:</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-form">
 
                         <input type="password" name="password" placeholder="Asd1234." class="form-control"
                             id="inputClave" disabled>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="mb-3 row">
                     <label for="confirmpassword" class="col-sm-2 col-form-label">Confirmar Contraseña:</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-form">
 
                         <input type="password" name="password" placeholder="Escriba nuevamente la contraseña"
                             class="form-control" id="confirmpassword">
@@ -136,16 +136,16 @@
                 </div>
                 <div class="mb-3 row">
                     <label for="validationRol" class="col-sm-2 col-form-label">Rol Empleado:</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-form">
                         <select class="form-select" id="validationRol" required>
                             <option selected disabled value="">Elegir Rol</option>
                             <option>...</option>
                         </select>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Registrar nuevo empleado</button>
+                <button type="submit" class="btn btn-primary btn-primary2">Registrar nuevo empleado</button>
                 <!-- cambiar color desde css;agregar clase-->
-                <button type="submit" class="btn btn-primary">Cancelar</button>
+                <button type="submit" class="btn btn-primary btn-secondary2">Cancelar</button>
             </div>
         </form>
     </section>

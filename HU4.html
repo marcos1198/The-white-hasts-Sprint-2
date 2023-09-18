@@ -63,50 +63,51 @@
     <div class="card mb-3">
         <img class="card-img-top" src="1vc6te2q.png" width="1438" height="220" alt="fondo">
     </div>
-
+<section class="container">
     <!-- Formulario de Registro -->
+    <form novalidate>
     <div class="p-3 m-0 border-0 bd-example">
         <p class="fs-1">Registrar nuevo empleado</p>
         <div class="mb-3 row ">
             <label for="inputNombre" class="col-sm-2 col-form-label">Nombre:</label>
             <!-- Cambiar en style.css general el tamaño de los input agregar clase input-form-->
-            <div class="col-sm-10" style="width: 340px;">
+            <div class="col-sm-10 col-form">
                 <input type="text" placeholder="Nombre" class="form-control" id="inputNombre">
             </div>
         </div>
         <div class="mb-3 row">
             <label for="inputApellido" class="col-sm-2 col-form-label">Apellido:</label>
-            <div class="col-sm-10">
+            <div class="col-sm-10 col-form">
                 <input type="text" placeholder="Apellido" class="form-control" id="inputApellido">
             </div>
         </div>
         <div class="mb-3 row">
             <label for="inputEmail" class="col-sm-2 col-form-label">Email:</label>
-            <div class="col-sm-10">
+            <div class="col-sm-10 col-form">
                 <input type="email" placeholder="Email" class="form-control" id="inputEmail">
             </div>
         </div>
         <div class="mb-3 row">
             <label for="inputTelefono" class="col-sm-2 col-form-label">Telefono:</label>
-            <div class="col-sm-10">
+            <div class="col-sm-10 col-form">
                 <input type="tel" placeholder="Telefono" class="form-control" id="inputTelefono">
             </div>
         </div>
         <div class="mb-3 row">
             <label for="inputDepartamento" class="col-sm-2 col-form-label">Departamento:</label>
-            <div class="col-sm-10">
+            <div class="col-sm-10 col-form">
                 <input type="text" placeholder="Departamento" class="form-control" id="inputDepartamento">
             </div>
         </div>
         <div class="mb-3 row">
             <label for="inputDireccion" class="col-sm-2 col-form-label">Direccion:</label>
-            <div class="col-sm-10">
+            <div class="col-sm-10 col-form">
                 <input type="text" placeholder="Direccion" class="form-control" id="inputDireccion">
             </div>
         </div>
         <div class="mb-3 row">
             <label for="inputClave" class="col-sm-2 col-form-label">Clave:</label>
-            <div class="col-sm-10">
+            <div class="col-sm-10 col-form">
                 
                 <input type="password" name="password" placeholder="Clave provisoria" class="form-control" id="inputClave" >
                 <spam class="fa fa-fw fa-eye password-icon show-password"  ></spam>
@@ -117,31 +118,19 @@
         </div>
         <div class="mb-3 row">
             <label for="validationRol" class="col-sm-2 col-form-label">Rol Empleado:</label>
-            <div class="col-sm-10">
+            <div class="col-sm-10 col-form">
                 <select class="form-select" id="validationRol" required>
                     <option selected disabled value="">Elegir Rol</option>
                     <option>...</option>
                 </select>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary">Registrar nuevo empleado</button>
+        <button type="submit" class="btn btn-primary btn-primary2">Registrar nuevo empleado</button>
         <!-- cambiar color desde css;agregar clase-->
         <button type="submit" class="btn btn-primary btn-secondary2">Cancelar</button>
     </div>
-
-
-
-<!--CSS toggle password visibility eye -->
-<style>
-
-.password-icon {
-                float: right;
-  position: relative;
-  margin: -25px 10px 0 0;
-  cursor: pointer;
-            }
-</style>
-    
+</form>
+</section>    
 
     <!--FOOTER-->
     <footer class="text-center" style="background: #A52326;">
